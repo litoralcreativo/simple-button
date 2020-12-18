@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #091921;
+}
+
+.container
+{
+  display: flex;
+  width: 150px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  background: #091921;
+  /* border: 4px solid #091921; */
+  border-radius: 50%;
+  box-shadow: 0 -5px 5px rgba(255, 255, 255, 0.05),
+              inset 0 -5px 5px rgba(255, 255, 255, 0.05),
+              0 5px 5px rgba(0, 0, 0, 0.05),
+              inset 0 5px 5px rgba(0, 0, 0, 0.05);
+
+}
+
+.button
+{
+  display: flex;
+  content: '';
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width:145px;
+  height: 145px;
+  border-radius: 50%;
+  border: 4px solid #091921;
+  background: #091921;
+  box-shadow: inset 0 15px 15px rgba(255, 255, 255, 0.05),
+              inset 0 -15px 15px rgba(0, 0, 0, 0.05);
+}
+
+#led
+{
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #091921;
+  box-shadow: inset 0 3px 3px rgba(255, 255, 255, 0.05), inset 0 -3px 3px rgba(0, 0, 0, 0.05);
+}
